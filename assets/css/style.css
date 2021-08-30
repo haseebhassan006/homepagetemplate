@@ -1,0 +1,460 @@
+/*@import url('http://fonts.cdnfonts.com/css/sofia-pro');*/
+
+body{
+	font-family: 'Sofia Pro', sans-serif !important;
+	color: #2C2D30;
+}
+h1,h2,h3,h4,h5,h6{
+
+}
+/*Extra*/
+.blue{
+	color: #4368FF !important;
+}
+.red{
+	color: #F34242 !important;
+}
+.dis-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dis-flex-start{}
+.dis-flex-end{}
+/*Extra*/
+/*Header*/
+header{
+    padding: 20px 0;
+}
+header .navbar-brand{}
+header .navbar-brand img{}
+header .navbar-nav {}
+header .navbar-nav li{
+    margin: 0 15px;
+}
+header .navbar-nav li a{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 15px 10px;
+}
+header .navbar-nav li:last-child{}
+header .navbar-nav li:last-child a{
+    border: 1px solid #4368ff;
+    border-radius: 10px;
+    padding: 15px 30px !important;
+    color: #4368FF !important;
+}
+/*Header*/
+/*Banner*/
+section.banner{
+    background: url(../../assets/images/banner.png)no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 920px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+section.banner .content{}
+section.banner .content h3{
+    font-size: 86px;
+    font-weight: 700;
+    line-height: 96px;
+}
+section.banner .content p{
+    font-size: 24px;
+    font-weight: 400;
+    margin: 30px 0;
+}
+section.banner .content a.btn{
+}
+/*Banner*/
+.btn.btn-business{
+    color: #fff;
+    font-size: 18px;
+    background: linear-gradient(
+317deg
+, #233685, #839bff);
+    font-weight: 100;
+    padding: 10px 40px;
+    border: 0;
+}
+.btn.btn-business:hover{}
+.hd{
+    font-size: 29px;
+    font-weight: 600;
+    color: #4368FF;
+}
+p{
+    font-size: 14px;
+    font-weight: 400;
+}
+.sec-heading{
+    font-size: 65px;
+    font-weight: 700;
+}
+.bg-cross{
+	 background: url(../../assets/images/blue-bg.png)no-repeat;
+	 background-size: contain !important;
+	 background-position: center !important;
+	 z-index: -1;
+}
+/*Form*/
+section.form{position: relative;top: -100px;background-color: #fff;width: 70%;margin: auto;border-radius: 10px;-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);box-shadow: 0px 0px 25px 0px rgb(137 131 131 / 75%);padding: 40px 0;}
+section.form .hd{}
+section.form p{
+    width: 45%;
+}
+section.form form{}
+section.form form input{}
+section.form form input,
+section.form form select{
+    width: 100%;
+    height: 50px;
+    border: 0;
+    border-bottom: 1px solid #2c2d30;
+    border-radius: 0;
+    font-size: 13px;
+    box-shadow: none;
+    outline: none;
+    color: #959597;
+}
+section.form form button{
+    margin: 30px 0 0;
+}
+section.form form button i{}
+/*Form*/
+
+/*How we work*/
+section.work{
+    padding: 50px 0px 100px;
+    text-align: center;
+    border-bottom: 22px solid #4368FF;  
+}
+section.work .icons{
+    margin: 60px 0px 0 !important;
+}
+section.work .icons ul{}
+section.work .icons ul li{
+    width: calc(95%/4);
+    float: left;
+}
+section.work .icons .media{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+section.work .icons .media img{
+    width: 60px;
+    height: 60px;
+    object-fit: scale-down;
+    padding: 10px;
+    border-radius: 50px;
+    border: 2px solid #F34242;
+}
+section.work .icons .media:hover img{}
+section.work .icons .media .media-body{
+    padding: 0 0 0 15px;
+}
+section.work .icons .media .media-body h5{
+    font-size: 18px;
+    font-weight: 600;
+    color: #F34242;
+}
+section.work .slider{
+    margin: 180px 0 0 !important;
+}
+section.work .slider .item{
+    height: 260px;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    position: relative;
+    top: 30px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgb(0 0 0 / 75%);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 25px 0px rgb(200 211 255);
+    margin: 30px 0;
+    transition: all .5s ease;
+}
+section.work .slider .item.slick-center{
+    height: 330px;
+    top: 0;
+    z-index: 999;
+    background-color: #fff;
+}
+section.work .slider .item.slick-center .box{
+    height: 330px;
+    padding: 20px 30px;
+}
+section.work .slider .item.slick-center .box img{
+    width: 100%;
+}
+section.work .slider .box{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 260px;
+}
+section.work .slider .box h3{}
+section.work .slider .box p{}
+section.work .slider .box a.btn{
+	font-size: 16px;
+}
+section.work .slider .box .img-box img{
+    width: 75%;
+}
+/*How we work*/
+/*COnsult*/
+section.consult{
+    text-align: center;
+    padding: 60px 0;
+}
+section.consult .sec-heading{}
+section.consult p{}
+section.consult .btnss{}
+section.consult .btnss .inn{
+    border: 2px solid #4368ff;
+    border-radius: 8px;
+    margin:  0 0 40px;
+    padding: 15px 20px;
+    transition: all .5s ease;
+}
+section.consult .btnss .inn a {
+    color: #4368FF;
+    font-size: 28px;
+    text-decoration: none;
+    transition: all .5s ease;
+}
+section.consult .btnss .inn:hover{
+    background-color: #4368ff;
+}
+section.consult .btnss .inn:hover img{filter: drop-shadow(2px 4px 6px white);}
+section.consult .btnss .inn:hover a{color: #fff;}
+section.consult .btnss .inn a img{
+}
+/*COnsult*/
+/*Resource*/
+section.resource{
+    padding: 60px 0;
+    background: url(../../assets/images/red-bg.png)no-repeat;
+    text-align: center;
+}
+section.resource .col-lg-12{
+	background: url(../../assets/images/ellipse.png)no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+section.resource .sec-heading{}
+section.resource p{
+    width: 60%;
+    margin: auto;
+}
+section.resource .slider2{}
+section.resource .slider2 .item{
+    margin: 0 15px;
+}
+section.resource .slider2 .box{
+    text-align: left;
+}
+section.resource .slider2 .box .img-box{
+    height: 350px;
+    width: 100%;
+}
+section.resource .slider2 .box .img-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+section.resource .slider2 .box h3{
+    font-size: 24px;
+    font-weight: 600;
+    margin: 20px 0;
+}
+section.resource .slider2 .box p{
+    width: 100%;
+    font-size: 16px;
+    opacity: .7;
+}
+section.resource .slick-prev, section.resource .slick-next{
+    z-index: 9999;
+    width: 66px !important;
+    height: 66px !important;
+    border-radius: 50%;
+    background: linear-gradient(118deg, #1e3cba, #6073de);
+    top: 33%;
+}
+section.resource .slick-prev{}
+section.resource .slick-prev:before{
+    font-family: "Font Awesome 5 Free" ! important;
+    content: "\f104" !important;
+    color: #ffffff !important;
+    font-size: 26px !important;
+    font-weight: 800;
+}
+section.resource .slick-next:before{
+    font-family: "Font Awesome 5 Free" ! important;
+    content: "\f105" !important;
+    color: #ffffff !important;
+    font-size: 26px !important;
+    font-weight: 800;
+}
+/*Resource*/
+/*Centers*/
+section.centers{
+    text-align: center;
+    padding: 80px 0 150px;
+    background: url(../../assets/images/Group63.png)no-repeat;
+    background-size: 70%;
+    background-position: center;
+}
+section.centers .sec-heading{}
+section.centers p{}
+section.centers .slider3{}
+section.centers .slider3 .item{
+    margin: 20px;
+}
+section.centers .slider3 .box{
+    height: 300px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px 80px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgb(0 0 0 / 75%);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 20px 0px rgb(200 211 255);
+}
+section.centers .slider3 .box h3{
+    font-size: 30px;
+}
+section.centers .slider3 .box p{
+    margin: 20px 0;
+}
+section.centers .slider3 .box ul{
+}
+section.centers .slider3 .box ul li{}
+section.centers .slider3 .box ul li a{
+    text-decoration: none;
+    color: #959597;
+}
+section.centers .slider3 .box ul li a i{
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid #4368ff;
+    margin: 0 20px 0 0;
+    display: inline-flex;
+    color: #4368FF;
+}
+.slick-dots{
+  
+bottom: -60px !important;
+  
+position: relative;
+}
+.slick-dots li button{
+    width: 22px !important;
+    height: 22px !important;
+}
+.slick-dots li button:before{
+    width: 22px !important;
+    height: 28px !important;
+    font-size: 22px !important;
+    border-radius: 30px;
+}
+.slick-dots li.slick-active button:before{
+    color: #4368FF!important;
+    opacity: 1 !important;
+}
+.slick-dots li{margin: 0px 6px !important;}
+/*Centers*/
+/*Man*/
+section.man{
+    padding: 60px 0;
+    background: url(../../assets/images/rb-bg.png)no-repeat;
+}
+section.man .img-box{}
+section.man .img-box img{}
+section.man .content{}
+section.man .content span{
+    font-size: 28px;
+}
+section.man .content .hd{
+    font-size: 48px;
+    font-weight: 800;
+}
+section.man .content p{
+    margin: 30px 0;
+}
+section.man .content a.btn{
+    background: linear-gradient(317deg, #bc1313, #e13232);
+}
+/*Man*/
+/*Faqs*/
+section.faqs{
+    padding: 80px 0;
+    position: relative;
+}
+section.faqs .sec-heading{}
+section.faqs .inn{
+    margin: 50px 0 0;
+}
+section.faqs .myaccordion{}
+section.faqs .myaccordion .card{border: 0;margin: 0 0 20px;}
+section.faqs .myaccordion .card .card-header{
+    background-color: transparent;
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid #ddd;
+    padding: 0;
+}
+section.faqs .myaccordion .card .card-header h2{}
+section.faqs .myaccordion .card .card-header h2 button{
+    width: 100%;
+    text-decoration: none;
+    font-size: 23px;
+    color: #5f5f5f;
+}
+section.faqs .myaccordion .card .card-header h2 button span{
+    color: #4368FF;
+    font-size: 12px;
+}
+section.faqs .myaccordion .card .card-header h2 button span i{}
+section.faqs .myaccordion .card .card-body{}
+section.faqs .myaccordion .card .card-body p{}
+
+/*Faqs*/
+
+/*Footer*/
+footer{
+    text-align: center;
+    padding: 60px 0 0;
+    background-color: #E6E6E6;
+}
+footer .logo{}
+footer .logo img{}
+footer p{
+    width: 50%;
+    margin: 30px auto 60px;
+}
+footer ul{}
+footer ul li{}
+footer ul li a{}
+footer .copyright{
+    background-color: #4368FF;
+    color: #fff;
+    padding: 15px 0;
+    margin: 30px 0 0;
+}
+footer .copyright p{margin: auto;}
+/*Footer*/
